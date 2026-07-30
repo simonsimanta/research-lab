@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model artifacts (keep out of git — document download steps instead)
+data/
+datasets/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.npz
+*.h5
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+*.key
