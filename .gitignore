@@ -27,3 +27,6 @@ datasets/
 # Env / secrets
 .env
 *.key
+
+# Private/sensitive projects — never committed to the public repo
+projects/_private/
